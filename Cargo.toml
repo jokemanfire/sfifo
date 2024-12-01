@@ -1,0 +1,12 @@
+[package]
+name = "sfifo"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = {version ="1.41.1" , features = ["full"]}
+inotify = "0.11"
+futures-util = "0.3.30"
+getset = "0.1.3"
+libc = "0.2"
+nix = {version = "0.29.0", features = ["fs"]}
