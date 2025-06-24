@@ -1,8 +1,9 @@
 [package]
 name = "sfifo"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 license = "MIT"
+keywords = ["fifo", "security", "system", "async"]
 description = "A Rust library for managing FIFO (named pipe) files with advanced features including process authentication and deadlock prevention."
 authors = ["jokemanfire <hu.dingyang@zte.com.cn>"]
 repository = "https://github.com/jokemanfire/sfifo"
